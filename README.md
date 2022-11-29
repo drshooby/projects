@@ -8,6 +8,6 @@ Table of Contents:
 2. [Python Bubble Sort with Tester](https://github.com/shooby-d/projects/tree/main/Bubble%20Sort)  
 3. [Huffman Encoder & Decoder](https://github.com/shooby-d/projects/tree/main/Huffman%20Encoder%20%26%20Decoder)  
   
-_ 
+_______________ 
 
 [main page](https://github.com/shooby-d/projects)
