@@ -89,10 +89,10 @@ class Output {
                             done = true;
                         } else { // otherwise, write the character to outfile
                             outfile.write(pointer.character);
-                            pointer = root; // 'take it from the top'
+                            pointer = root; // 'take it from the top' - of the tree
                         }
                     } else { // character "code" not found
-                        count++; // ha! missing this caused huge issue
+                        count++;
                         continue;
                     }
                 } else if (inputLine.charAt(count) == '1') { // check right, same deal
