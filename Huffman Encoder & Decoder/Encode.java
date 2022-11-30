@@ -42,6 +42,7 @@ public class Encode {
                         System.err.println("ERROR: issue with writing to output");
                     }
                 }
+                output.write(map.get('\n'));
             }
             output.write(map.get('\u0004')); // add end of transmission character at the end
 
