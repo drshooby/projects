@@ -56,6 +56,7 @@ public class QuickSort {
         System.out.println(ANSI_GREEN + "SORTED" + ANSI_RESET);
     }
 
+    // Note: print statements add a significant amount of time 
     public static void main(String[] args) {
         QuickSort toSort = new QuickSort();
         System.out.println("\n Unsorted Array \n");
