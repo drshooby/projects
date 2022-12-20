@@ -70,7 +70,8 @@ public class MergeSort {
         }
         System.out.println(ANSI_GREEN + "SORTED" + ANSI_RESET);
     }
-
+    
+    // Note: print statements add a significant amount of time 
     public static void main(String[] args) {
         MergeSort toSort = new MergeSort();
         System.out.println("\n Unsorted Array \n");
