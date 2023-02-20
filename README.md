@@ -1,6 +1,6 @@
 # Projects
 
-Hello! This repository contains David's projects.
+Hello! This repository contains David's programming projects.
 
 Table of Contents:  
 
