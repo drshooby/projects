@@ -44,12 +44,13 @@ public class MovieTags {
      * @param args
      */
     public static void main(String[] args) {
-
+        
+        File myFile = new File(args[0]); // use quotes if entering full path
         ArrayList<Movies> movieList = new ArrayList<>(); // used in sorting tags alphabetically
         System.out.println("Reading data file.....");
         // reading the file generally takes around 2-3 minutes with my Intel i7 and around 30 seconds for M2 Chip
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("tags.csv"));
+            BufferedReader reader = new BufferedReader(new FileReader(myFile));
             reader.readLine(); // skip first line
             String line = reader.readLine();
             while (line != null) {
