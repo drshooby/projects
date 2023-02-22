@@ -4,7 +4,7 @@ My implementation contains two primary variables that utilize the ArrayList data
 
 | ArrayList | Description |
 | --- | --- |
-| movieList | Contains all custom "Movies" objects that are sorted by tags/genres |
+| movieList | Contains all custom "Movie" objects that are sorted by tags/genres |
 | copy | Contains the exact same elements as movieList but is sorted by tag/genre counts |
 
 This implementation also utilizes two sorting algorithms as well as binary and linear search
