@@ -4,6 +4,7 @@ My implementation contains two primary variables that utilize the ArrayList data
 
 | ArrayList | Description |
 | --- | --- |
+| Movie object | Custom object that has String genre/tag and int frequency/count componenets |
 | movieList | Contains all custom "Movie" objects that are sorted by tags/genres |
 | copy | Contains the exact same elements as movieList but is sorted by tag/genre counts |
 
