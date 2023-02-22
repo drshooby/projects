@@ -2,7 +2,7 @@ Hello! This folder contains Assignment 01 for Data Structures and Algorithms (CS
 
 _____
 
-My implementation contains two primary variables and a custom object that utilize the ArrayList data structure.
+My implementation contains two primary variables and a custom object type that utilize the ArrayList data structure.
 
 | ArrayList | Description |
 | --- | --- |
