@@ -58,6 +58,7 @@ public class MovieTags {
                 sort(movieList, entry[2].trim()); // perform insertion sort as items come in
                 line = reader.readLine();
             }
+            reader.close();
         } catch (FileNotFoundException e) {
             System.out.println("ERROR: file not found");
             System.exit(0);
