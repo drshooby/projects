@@ -10,6 +10,8 @@ My implementation contains two primary variables that utilize the ArrayList data
 | movieList | Contains all custom "Movie" objects that are sorted by tags/genres |
 | copy | Contains the exact same elements as movieList but is sorted by tag/genre counts |
 
+_____
+
 This implementation also utilizes two sorting algorithms as well as binary and linear search
 
 | Method | Description | Time | Space |
