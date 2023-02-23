@@ -45,6 +45,9 @@ public class MovieTags {
      */
     public static void main(String[] args) {
         
+        if (args.length != 1) {
+            throw new RuntimeException("Invalid file argument");
+        }
         File myFile = new File(args[0]); // use quotes if entering full path
         ArrayList<Movies> movieList = new ArrayList<>(); // used in sorting tags alphabetically
         System.out.println("Reading data file.....");
