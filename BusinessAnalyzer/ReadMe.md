@@ -2,7 +2,7 @@ Hello! This folder contains Assignment 02 for Data Structures and Algorithms (CS
 
 _____
 
-My implementation contains a custom object type that utilized in the desired custom ArrayList or LinkedList implemenation.
+My implementation contains a custom object type that is utilized in the desired custom ArrayList or LinkedList implemenation.
 
 | Object | Description |
 | --- | --- |
