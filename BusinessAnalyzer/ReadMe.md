@@ -18,8 +18,8 @@ This implementation uses two primary methods the first being ReadData() which in
 | InputHandler() | Handles user input with helper functions. | O(n) | O(n) |
 | HistoryHandler() | Helper functinon that prints out the user's command/input history. | O(n) | O(1) |
 | SummaryHandler() | Helper functinon that prints the total amount of businesses and businesses closed. | O(1) | O(1) |
-| NaicsHandler() | Helper function that handles and prints information related to the naics code input | O(n) | O(n) |
-| ZipHandler() | Helper function that handles and prints information related to the zip code input | O(n) | O(n) |
+| NaicsHandler() | Helper function that handles and prints information related to the naics code input. | O(n) | O(n) |
+| ZipHandler() | Helper function that handles and prints information related to the zip code input. | O(n) | O(n) |
 
 
 [back to main page](https://github.com/shooby-d/projects) 
