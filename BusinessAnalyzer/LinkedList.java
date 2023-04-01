@@ -1,5 +1,5 @@
 
-public class LinkedList<T> implements List<T>{ // error code
+public class LinkedList<T> implements List<T>{
     Node<T> head;
     int size;
     public LinkedList() {
