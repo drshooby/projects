@@ -1,5 +1,5 @@
 
-public class ArrayList<T> implements List<T>{ // error code
+public class ArrayList<T> implements List<T>{
 
     int size;
     T[] arr;
