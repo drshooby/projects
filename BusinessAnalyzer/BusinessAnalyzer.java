@@ -43,10 +43,6 @@ public class BusinessAnalyzer {
 
 
     public static void main(String[] args) throws Exception {
-        /*
-         * To Do:
-         * Implement input reader
-         */
         if (args.length != 2) {
             throw new Exception("Invalid command-line arguments! First argument is the SF Registered Businesses file name" + "\n" + "and second should be the desired list implementation.");
         }
@@ -150,7 +146,7 @@ public class BusinessAnalyzer {
     /**
      * NaicsHandler() handles and prints information related to the naics code input
      * @param inputTokens are the tokens from the user input
-     * Runtime: O(n^2) (in reality it should be quick with list iterator)
+     * Runtime: O(n^2) (the second n value is going to be very small so it may be more fitting to say its O(n))
      * Space: O(n)
      */
     private void NaicsHandler(String[] inputTokens) {
@@ -179,7 +175,7 @@ public class BusinessAnalyzer {
                 }
                 String[] codeRange = naics.split("-");
                 // ranges
-                int low = Integer.parseInt(codeRange[0]); // adds runtime, but space should be the same and easier to compare with integers
+                int low = Integer.parseInt(codeRange[0]); // adds runtime, but space should be the same and it's easier to compare with integers
                 int high = Integer.parseInt(codeRange[1]);
                 // if greater than or equal to low range or less than or equal to high range its valid
                 if (naicsInput >= low && naicsInput <= high) {
@@ -230,7 +226,7 @@ public class BusinessAnalyzer {
         while (busIterator.hasNext()) { // iterates through main list and checks zips
             DataObject curr = busIterator.next();
             if (curr.zip.equals(inputTokens[1])) { // only add matching zips
-                // Implementation switched to better fit output examples
+                // Implementation changed to better fit output examples from assignment doc
                 totalBusinesses = totalBusinesses + 1;
                 if (curr.neighborhood.length() != 0) {
                     neighborhoods.add(curr.neighborhood);
