@@ -1,5 +1,3 @@
-import java.util.Iterator;
-
 public interface List<T> {
      int size();
 
