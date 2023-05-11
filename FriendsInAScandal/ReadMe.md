@@ -14,12 +14,11 @@ This implementation has multiple important methods from each of the various proj
 
 | Method | Description | Time | Space |
 | --- | --- | --- | --- |
-| ReadData() | Reads Registered_Business_Locations_-_San_Francisco.csv and populates the list (arraylist or linked list depending on user input). | O(n) | O(n) |
-| InputHandler() | Handles user input with helper functions. | O(n) | O(n) |
-| HistoryHandler() | Helper functinon that prints out the user's command/input history. | O(n) | O(1) |
-| SummaryHandler() | Helper functinon that prints the total amount of businesses and businesses closed. | O(1) | O(1) |
-| NaicsHandler() | Helper function that handles and prints information related to the naics code input. | O(n) | O(n) |
-| ZipHandler() | Helper function that handles and prints information related to the zip code input. | O(n) | O(n) |
+| HandlerHelper() | Handles user input | O(n^2) | O(1) |
+| FindConnectors() | Finds connector vertices in the graph using a custom DFS. | O(V + E) | O(1) |
+| GetReceivedEmails() | Graph function that returns the number of email adresses from which an email received emails from. | O(n^2) | O(1) |
+| Size() | Disjoint set function that finds graph clusters. | O(1) | O(1) |
+| ParseFiles() | Parses the Enron file dataset and creates a graph based on valid email addresses. | O(n^2) | O(n) |
 
 
 [back to main page](https://github.com/shooby-d/projects) 
