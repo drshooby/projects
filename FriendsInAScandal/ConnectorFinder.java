@@ -19,7 +19,7 @@ public class ConnectorFinder { // help with most of ConnectorFinder from chat.op
      * @return a set containing each connector
      */
 
-    public Set<String> findConnectors(Graph graph, boolean writeFile, String outPath) {
+    public void findConnectors(Graph graph, boolean writeFile, String outPath) {
         Set<String> connectors = new HashSet<>();
         Map<String, Integer> dfsNum = new HashMap<>();
         Map<String, Integer> back = new HashMap<>();
@@ -38,7 +38,9 @@ public class ConnectorFinder { // help with most of ConnectorFinder from chat.op
                 System.out.println("Error writing to file path " + outPath + "." + e);
             }
         }
-        return connectors;
+        for (String connector : connectors) {
+            System.out.println(connector);
+        }
     }
 
     /**
