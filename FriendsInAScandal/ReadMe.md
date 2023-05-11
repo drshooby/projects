@@ -6,7 +6,7 @@ My implementation contains a custom object type that is utilized as vertices for
 
 | Object | Description |
 | --- | --- |
-| GraphNode | Custom object that has String name for the associated email and a HashSet of GraphNode neighbors as components |
+| GraphNode | Custom object that has a String name for the associated email and a HashSet of GraphNode neighbors as components |
 
 _____
 
