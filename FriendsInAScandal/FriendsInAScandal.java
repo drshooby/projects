@@ -91,8 +91,6 @@ public class FriendsInAScandal {
         ConnectorFinder cf = new ConnectorFinder();
         InputHandler h = new InputHandler();
 
-        System.out.println("Please wait a moment for graph and clusters to be created...");
-
         try {
             if (args.length > 2 || args.length < 1) {
                 throw new IllegalArgumentException("Incorrect number of arguments (max 2). Either only maildir path or an additional out-path for connectors.");
