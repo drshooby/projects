@@ -16,7 +16,6 @@ public class ConnectorFinder { // help with most of ConnectorFinder from chat.op
      * @param graph the graph
      * @param writeFile whether to write to an outfile or not
      * @param outPath the outfile path to write to
-     * @return a set containing each connector
      */
 
     public void findConnectors(Graph graph, boolean writeFile, String outPath) {
