@@ -9,7 +9,8 @@ Table of Contents:
 3. [Sorting Algorithms](https://github.com/shooby-d/projects/tree/main/Sorting%20Algorithms)  
 4. [CS245 Assignment01](https://github.com/shooby-d/projects/tree/main/MovieTags) 
 5. [CS245 Assignment02](https://github.com/shooby-d/projects/tree/main/BusinessAnalyzer)  
-6. [Machine Learning](https://github.com/shooby-d/projects/tree/main/ML)  
+6. [CS245 Assignment03](https://github.com/shooby-d/projects/tree/main/FriendsInAScandal) 
+7. [Machine Learning](https://github.com/shooby-d/projects/tree/main/ML)  
 
 _______________ 
 
