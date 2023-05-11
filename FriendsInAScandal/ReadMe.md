@@ -17,7 +17,7 @@ This implementation has multiple important methods from each of the various proj
 | HandlerHelper() | Handles user input | O(n^2) | O(1) |
 | FindConnectors() | Finds connector vertices in the graph using a custom DFS. | O(V + E) | O(1) |
 | GetReceivedEmails() | Graph function that returns the number of email adresses from which an email received emails from. | O(n^2) | O(1) |
-| Size() | Disjoint set function that finds graph clusters. | O(1) | O(1) |
+| Size() | Disjoint set function that finds the size of graph clusters. | O(1) | O(1) |
 | ParseFiles() | Parses the Enron file dataset and creates a graph based on valid email addresses. | O(n^2) | O(n) |
 
 
