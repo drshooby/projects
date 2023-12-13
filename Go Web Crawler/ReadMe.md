@@ -1,4 +1,4 @@
-Hello! This folder contains my semester-long project for Software Development (CS272). I had some fun with the creativity.
+Hello! This folder contains my semester-long project for Software Development (CS272). While it was challenging, it was very fun to work on.
 
 _____
 
