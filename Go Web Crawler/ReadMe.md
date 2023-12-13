@@ -6,7 +6,7 @@ The project is an ethical web-crawler designed to crawl the dvc.edu website with
 
 I had an opportunity to learn Go, databases with SQLite3, and brush up on HTML and CSS.
 
-Please feel free to take a look at the different files, thank you.
+Please feel free to take a look at the different files, thank you. -David
 
 [back to main page](https://github.com/shooby-d/projects) 
 
