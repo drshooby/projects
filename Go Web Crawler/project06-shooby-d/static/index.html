@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS272 Projects-DavidS</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>CS272 PROJECT HOME</h1>
+    <form class="submit_form" action="/search" method="get">
+        <label for="search"></label><input type="text" class="search-input" id="search" name="search" placeholder="Enter your search term">
+        <button type="submit" class="submit-button">Search</button>
+        <div class="checkbox-container">
+            <input type="checkbox" id="wildcard" name="wildcard" value=true>
+            <label for="wildcard">Wildcard Search</label>
+        </div>
+    </form>
+</div>
+<script>
+    // small script to toggle the background image when the checkbox is checked
+    document.getElementById('wildcard').addEventListener('change', function() {
+        const body = document.body;
+        body.classList.toggle('background-fade', this.checked);
+    });
+</script>
+</body>
+</html>

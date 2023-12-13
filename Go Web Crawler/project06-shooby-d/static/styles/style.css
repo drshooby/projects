@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 2s;
+}
+
+body.background-fade {
+    background-image: url('kevinjames.jpg');
+}
+
+body.background-fade::before {
+    content: "";
+    background-image: url('raining-money-8.gif');
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.submit-button {
+    padding: 15px 30px;
+    background-color: #1cacef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 92px;
+    padding: 0 50px;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    margin-bottom: 10vh;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.checkbox-container {
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.checkbox-container input {
+    cursor: pointer;
+    margin-right: 5px;
+    transform: scale(1.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    border-radius: 5px;
+    border: 10px solid #1cacef;
+    background-color: #1cacef;
+    font-size: 16px;
+    color: #ffffff;
+}

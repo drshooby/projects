@@ -1,0 +1,80 @@
+body {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1, h2 {
+    color: #333; 
+}
+
+td {
+    color: #333;
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.img-result img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.no-results img {
+    width: 300px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.no-results p {
+    font-size: 20px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #333;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+}
+
+.link-style:visited {
+    color: #333;
+}
+
+.back-style {
+    text-decoration: none;
+    color: white;
+}
+
+.back-style:hover {
+    text-decoration: underline;
+}
+
+.back-style:visited {
+    color: white;
+}

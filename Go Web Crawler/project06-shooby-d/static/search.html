@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Results for Stemmed Term: {{.Term}}</title>
+    <link rel="stylesheet" href="../styles/search.css">
+</head>
+<body>
+
+    {{if .Wildcard}}
+        <h1>Search Results for Wildcard Stemmed Term: {{.Term}}</h1>
+    {{else}}
+        <h1>Search Results for Stemmed Term: {{.Term}}</h1>
+    {{end}}
+
+    {{if .NoHits}}
+        <div class="no-results">
+            <p>No results found.</p>
+            <img src="../styles/sadface.png" alt="Sad Face">
+        </div>
+    {{else}}
+        <h2>Text Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title of Page</th>
+                    <th>TFIDF Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{range $index, $result := .HitsResults}}
+                    <tr>
+                        <td>{{$index}}</td>
+                        <td><a href="{{$result.URL}}" class="title-url link-style" alt="dvc-url" target="_blank">{{$result.Title}}</a></td>
+                        <td>{{$result.Rank}}</td>
+                    </tr>
+                {{end}}
+            </tbody>
+        </table>
+        {{if .NoImages}}
+            <p>No images found.</p>
+        {{else}}
+            <h2>Image Results</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{range $item := .ImageResults}}
+                        <tr>
+                            <td>{{$item.ALT}}</td>
+                            <td><div class="img-result"><img src="{{$item.SRC}}" alt="{{$item.ALT}}"></div></td>
+                        </tr>
+                    {{end}}
+                </tbody>
+            </table>
+        {{end}}
+    {{end}}
+    <h2>
+        <a class="go-back back-style" href="/">Back to search page</a>
+    </h2>
+</body>
+</html>
