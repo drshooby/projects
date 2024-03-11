@@ -1,7 +1,7 @@
 Hello! This folder contains class project #2 for my Graduate Systems course. 
 
 * The languages used are C and RISC-V assembly
-* It can do basic math like add/subtract/multiply alongisde bitwise operations like logical shift right/left and bitwise and/or
+* It can do basic math like add/subtract/multiply alongside bitwise operations like logical shift right/left and bitwise and/or
 * Supports grouping operations with parentheses
 
 * Also width and base conversions, using the -w and -b flags
