@@ -1,3 +1,4 @@
+# Preamble, setup for compile mode
 .data
 
 printf_format: 
