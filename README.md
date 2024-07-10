@@ -11,7 +11,8 @@ Table of Contents:
 5. [CS245 Assignment02](https://github.com/shooby-d/projects/tree/main/BusinessAnalyzer)  
 6. [CS245 Assignment03](https://github.com/shooby-d/projects/tree/main/FriendsInAScandal) 
 7. [Machine Learning](https://github.com/shooby-d/projects/tree/main/ML)
-8. [Web Crawler with Go](https://github.com/shooby-d/projects/tree/main/Go%20Web%20Crawler)  
+8. [Web Crawler with Go](https://github.com/shooby-d/projects/tree/main/Go%20Web%20Crawler)
+9. [Mini Language and RISCV](https://github.com/shooby-d/projects/tree/main/Mini-Language%20and%20RISC-V%20Code%20Generator)  
 
 _______________ 
 
