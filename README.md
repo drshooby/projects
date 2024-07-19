@@ -16,6 +16,4 @@ Table of Contents:
 
 _______________ 
 
-![The Matrix](https://media.giphy.com/media/10zxDv7Hv5RF9C/giphy.gif)
-
 [main page](https://github.com/shooby-d/projects)
